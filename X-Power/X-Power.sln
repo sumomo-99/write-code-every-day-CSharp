@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0BE31E25-8C31-4174-912D-7E936A483B98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X-Power", "src\X-Power\X-Power.csproj", "{15EA0CF3-E070-43EB-B86F-E5CEA2404F3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{87BF00A0-57AA-4336-AFA6-BF72C038C54D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X-PowerTests", "tests\X-PowerTests\X-PowerTests.csproj", "{5524049F-9DBF-4E3F-B79B-F5BBECB128EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15EA0CF3-E070-43EB-B86F-E5CEA2404F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EA0CF3-E070-43EB-B86F-E5CEA2404F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EA0CF3-E070-43EB-B86F-E5CEA2404F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EA0CF3-E070-43EB-B86F-E5CEA2404F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5524049F-9DBF-4E3F-B79B-F5BBECB128EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5524049F-9DBF-4E3F-B79B-F5BBECB128EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5524049F-9DBF-4E3F-B79B-F5BBECB128EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5524049F-9DBF-4E3F-B79B-F5BBECB128EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15EA0CF3-E070-43EB-B86F-E5CEA2404F3D} = {0BE31E25-8C31-4174-912D-7E936A483B98}
+		{5524049F-9DBF-4E3F-B79B-F5BBECB128EE} = {87BF00A0-57AA-4336-AFA6-BF72C038C54D}
+	EndGlobalSection
+EndGlobal
