@@ -7,3 +7,4 @@
 3. Rectangle
 4. EvenOrOdd
 5. Watch
+6. SumOfPositive
