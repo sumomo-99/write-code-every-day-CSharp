@@ -8,3 +8,4 @@
 4. EvenOrOdd
 5. Watch
 6. SumOfPositive
+7. RemoveFirstAndLastCharacter
