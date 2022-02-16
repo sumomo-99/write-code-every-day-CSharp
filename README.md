@@ -9,3 +9,4 @@
 5. Watch
 6. SumOfPositive
 7. RemoveFirstAndLastCharacter
+8. StringRepeat
