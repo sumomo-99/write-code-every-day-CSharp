@@ -11,3 +11,4 @@
 7. RemoveFirstAndLastCharacter
 8. StringRepeat
 9. SmallLargeEqual
+10. ReversedString
