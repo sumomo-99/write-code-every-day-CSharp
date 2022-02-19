@@ -10,3 +10,4 @@
 6. SumOfPositive
 7. RemoveFirstAndLastCharacter
 8. StringRepeat
+9. SmallLargeEqual
