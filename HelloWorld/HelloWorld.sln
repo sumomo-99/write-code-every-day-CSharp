@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "src\HelloWorld.csproj", "{8A230085-F542-465B-A7C3-4A019B42C214}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7A0D78C9-7CCC-48AA-A58E-597548D6B743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloworldTest", "tests\HelloworldTest\HelloworldTest.csproj", "{67A92B9D-0693-46DF-8C44-18D34D679502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A230085-F542-465B-A7C3-4A019B42C214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A230085-F542-465B-A7C3-4A019B42C214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A230085-F542-465B-A7C3-4A019B42C214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A230085-F542-465B-A7C3-4A019B42C214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A92B9D-0693-46DF-8C44-18D34D679502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A92B9D-0693-46DF-8C44-18D34D679502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A92B9D-0693-46DF-8C44-18D34D679502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A92B9D-0693-46DF-8C44-18D34D679502}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67A92B9D-0693-46DF-8C44-18D34D679502} = {7A0D78C9-7CCC-48AA-A58E-597548D6B743}
+	EndGlobalSection
+EndGlobal
