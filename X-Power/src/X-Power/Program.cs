@@ -1,8 +1,6 @@
-﻿using System;
-
-if (args.Length > 0)
+﻿if (args.Length > 0)
 {
-    Console.WriteLine(XPower.Power.CalculatePower(args[0], args[1]));
+    Console.WriteLine(XPower.Power.CalculatePower(int.Parse(args[0]), int.Parse(args[1])));
 }
 else
 {
@@ -13,9 +11,9 @@ namespace XPower
 {
     public static class Power
     {
-        public static double CalculatePower(string a, string b)
+        public static double CalculatePower(int a, int b)
         {
-            return Math.Pow(Double.Parse(a), Double.Parse(b));
+            return Math.Pow(a, b);
         }
     }
 }
