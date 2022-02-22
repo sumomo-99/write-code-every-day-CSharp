@@ -12,3 +12,4 @@
 8. StringRepeat
 9. SmallLargeEqual
 10. ReversedString
+11. Summation
