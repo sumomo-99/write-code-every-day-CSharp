@@ -13,3 +13,4 @@
 9. SmallLargeEqual
 10. ReversedString
 11. Summation
+12. Smallest
