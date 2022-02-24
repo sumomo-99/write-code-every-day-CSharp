@@ -14,3 +14,4 @@
 10. ReversedString
 11. Summation
 12. Smallest
+13. Range
