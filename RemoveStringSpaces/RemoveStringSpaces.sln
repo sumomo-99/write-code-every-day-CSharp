@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{657A6117-CDDA-4793-A6D0-2DAFFE14357E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveStringSpaces", "src\RemoveStringSpaces\RemoveStringSpaces.csproj", "{AADCD04B-7476-4830-9940-F92CE3944A71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9FACA756-16B7-49AB-8E86-766DABF7A838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveStringSpacesTest", "tests\RemoveStringSpacesTest\RemoveStringSpacesTest.csproj", "{47F269C7-0451-4E05-9F0B-F5EBF4E902EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AADCD04B-7476-4830-9940-F92CE3944A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADCD04B-7476-4830-9940-F92CE3944A71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADCD04B-7476-4830-9940-F92CE3944A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADCD04B-7476-4830-9940-F92CE3944A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F269C7-0451-4E05-9F0B-F5EBF4E902EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F269C7-0451-4E05-9F0B-F5EBF4E902EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F269C7-0451-4E05-9F0B-F5EBF4E902EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F269C7-0451-4E05-9F0B-F5EBF4E902EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AADCD04B-7476-4830-9940-F92CE3944A71} = {657A6117-CDDA-4793-A6D0-2DAFFE14357E}
+		{47F269C7-0451-4E05-9F0B-F5EBF4E902EE} = {9FACA756-16B7-49AB-8E86-766DABF7A838}
+	EndGlobalSection
+EndGlobal

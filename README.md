@@ -15,3 +15,4 @@
 11. Summation
 12. Smallest
 13. Range
+14. RemoveStringSpaces
