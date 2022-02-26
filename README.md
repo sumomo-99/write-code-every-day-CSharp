@@ -16,3 +16,4 @@
 12. Smallest
 13. Range
 14. RemoveStringSpaces
+15. SquaerNSum
