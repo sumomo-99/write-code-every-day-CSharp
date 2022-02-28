@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D15E0A7A-2510-4ED8-A5AF-AF5C69783677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingSheeps", "src\CountingSheeps\CountingSheeps.csproj", "{A73DED17-1B6C-417B-B85B-E371BDB343A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{346C7744-7AC3-4377-ACFC-65AA441B96B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingSheepsTest", "tests\CountingSheepsTest\CountingSheepsTest.csproj", "{6E05DE6C-BDFD-495A-BCFB-59A4F0847578}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A73DED17-1B6C-417B-B85B-E371BDB343A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73DED17-1B6C-417B-B85B-E371BDB343A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73DED17-1B6C-417B-B85B-E371BDB343A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73DED17-1B6C-417B-B85B-E371BDB343A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E05DE6C-BDFD-495A-BCFB-59A4F0847578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E05DE6C-BDFD-495A-BCFB-59A4F0847578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E05DE6C-BDFD-495A-BCFB-59A4F0847578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E05DE6C-BDFD-495A-BCFB-59A4F0847578}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A73DED17-1B6C-417B-B85B-E371BDB343A9} = {D15E0A7A-2510-4ED8-A5AF-AF5C69783677}
+		{6E05DE6C-BDFD-495A-BCFB-59A4F0847578} = {346C7744-7AC3-4377-ACFC-65AA441B96B5}
+	EndGlobalSection
+EndGlobal

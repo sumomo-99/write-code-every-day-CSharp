@@ -18,3 +18,4 @@
 14. RemoveStringSpaces
 15. SquaerNSum
 16. SortingNumbers
+17. CountingSheeps
