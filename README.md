@@ -23,3 +23,4 @@
 19. PrintManyHelloWorld
 20. CaluculateBMI
 21. TwoWordName
+22. PrintTestCase
