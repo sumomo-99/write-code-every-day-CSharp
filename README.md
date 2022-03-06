@@ -24,3 +24,4 @@
 20. CaluculateBMI
 21. TwoWordName
 22. PrintTestCase
+23. VowelCount
