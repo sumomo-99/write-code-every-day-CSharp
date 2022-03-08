@@ -26,3 +26,4 @@
 22. PrintTestCase
 23. VowelCount
 24. SwappingTwoNumbers
+25. CenturyFromYear
