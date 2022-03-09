@@ -27,3 +27,4 @@
 23. VowelCount
 24. SwappingTwoNumbers
 25. CenturyFromYear
+26. CheckForFactor
