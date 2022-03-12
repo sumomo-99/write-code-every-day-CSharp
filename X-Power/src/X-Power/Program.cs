@@ -1,19 +1,31 @@
-﻿if (args.Length > 0)
+﻿using Sumomo99.WriteCodeEveryDay;
+
+if (args.Length > 0)
 {
-    Console.WriteLine(XPower.Power.CalculatePower(int.Parse(args[0]), int.Parse(args[1])));
+    var power = new PowerCaluculate(int.Parse(args[0]), int.Parse(args[1]));
+    Console.WriteLine(power.Caluculate());
 }
 else
 {
     Console.WriteLine("コマンドに引数が必要です。");
 }
 
-namespace XPower
+namespace Sumomo99.WriteCodeEveryDay
 {
-    public static class Power
+    public class PowerCaluculate
     {
-        public static double CalculatePower(int a, int b)
+        private readonly int b; //base
+        private readonly int exponent;
+
+        public PowerCaluculate(int b, int exponent)
         {
-            return Math.Pow(a, b);
+            this.b = b;
+            this.exponent = exponent;
+        }
+
+        public double Caluculate()
+        {
+            return Math.Pow(b, exponent);
         }
     }
 }

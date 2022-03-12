@@ -1,5 +1,5 @@
 using Xunit;
-using XPower;
+using Sumomo99.WriteCodeEveryDay;
 
 namespace X_PowerTests;
 
@@ -14,6 +14,7 @@ public class UnitTest1
     [InlineData(2, -2, 0.25d)]
     public void PowerTest(int x, int y, double ans)
     {
-        Assert.Equal(Power.CalculatePower(x, y), ans);
+        var power = new PowerCaluculate(x, y);
+        Assert.Equal(power.Caluculate(), ans);
     }
 }
