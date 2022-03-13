@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DDF5FAB1-D859-42BA-8A39-7F2C2B9E1515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circle", "src\Circle\Circle.csproj", "{CF56E48C-4131-4608-8E61-40B63993247C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{75BE9609-2401-4073-8ABF-184007C2FF8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleTest", "tests\CircleTest\CircleTest.csproj", "{79C90AC6-A1AE-4EAD-9397-82C185B054C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF56E48C-4131-4608-8E61-40B63993247C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF56E48C-4131-4608-8E61-40B63993247C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF56E48C-4131-4608-8E61-40B63993247C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF56E48C-4131-4608-8E61-40B63993247C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C90AC6-A1AE-4EAD-9397-82C185B054C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C90AC6-A1AE-4EAD-9397-82C185B054C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C90AC6-A1AE-4EAD-9397-82C185B054C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C90AC6-A1AE-4EAD-9397-82C185B054C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF56E48C-4131-4608-8E61-40B63993247C} = {DDF5FAB1-D859-42BA-8A39-7F2C2B9E1515}
+		{79C90AC6-A1AE-4EAD-9397-82C185B054C2} = {75BE9609-2401-4073-8ABF-184007C2FF8B}
+	EndGlobalSection
+EndGlobal
