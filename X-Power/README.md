@@ -5,6 +5,10 @@
 * C#
 
 # Usage
+```
+dotnet run [BASE] [EXPONENT]
+```
+
 2の3乗を出力する。
 ```bash
 dotnet run 2 3
