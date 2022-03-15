@@ -1,31 +1,31 @@
 ﻿using Sumomo99.WriteCodeEveryDay;
 
-if (args.Length > 0)
+if (args.Length > 1)
 {
     var power = new PowerCaluculate(int.Parse(args[0]), int.Parse(args[1]));
     Console.WriteLine(power.Caluculate());
 }
 else
 {
-    Console.WriteLine("コマンドに引数が必要です。");
+    Console.WriteLine("Usage:  dotnet run [BASE] [EXPONENT]");
 }
 
 namespace Sumomo99.WriteCodeEveryDay
 {
     public class PowerCaluculate
     {
-        private readonly int b; //base
-        private readonly int exponent;
+        private readonly int _base;
+        private readonly int _exponent;
 
-        public PowerCaluculate(int b, int exponent)
+        public PowerCaluculate(int @base, int exponent)
         {
-            this.b = b;
-            this.exponent = exponent;
+            _base = @base;
+            _exponent = exponent;
         }
 
         public double Caluculate()
         {
-            return Math.Pow(b, exponent);
+            return Math.Pow(_base, _exponent);
         }
     }
 }
