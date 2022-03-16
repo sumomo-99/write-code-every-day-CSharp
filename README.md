@@ -31,3 +31,4 @@
 27. HowManyDivisors
 28. A-B-Divide
 29. Circle
+30. MinMaxSum
