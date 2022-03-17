@@ -32,3 +32,4 @@
 28. A-B-Divide
 29. Circle
 30. MinMaxSum
+31. PrintRectangle
