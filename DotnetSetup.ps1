@@ -3,9 +3,9 @@ Param(
 )
 
 $SlnPah = (Join-Path (Convert-Path .) $ProjectName)
-$SrcPath = (Join-Path $SlnPah 'src' $ProjectName)
+$SrcPath = (Join-Path $SlnPah $ProjectName)
 $TestName = $ProjectName + 'Test'
-$TestPath = (Join-Path $SlnPah 'tests' $TestName)
+$TestPath = (Join-Path $SlnPah $TestName)
 $Extension = '.csproj'
 
 # Solution
