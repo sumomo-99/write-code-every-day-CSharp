@@ -33,3 +33,4 @@
 29. Circle
 30. MinMaxSum
 31. PrintRectangle
+32. PrintFrame
