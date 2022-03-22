@@ -14,7 +14,7 @@ public class UnitTest1
     [InlineData(2, -2, 0.25d)]
     public void PowerTest(int x, int y, double ans)
     {
-        var power = new PowerCaluculate(x, y);
+        var power = new PowerCaluculate { Base = x, Exponent = y };
         Assert.Equal(power.Caluculate(), ans);
     }
 }
