@@ -35,3 +35,4 @@
 31. PrintRectangle
 32. PrintFrame
 33. PrintChessBoard
+34. SimpleCalculator
