@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversedNumbers", "ReversedNumbers\ReversedNumbers.csproj", "{00381A8A-05B5-4C23-A1E3-6E439C2D89DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversedNumbersTest", "ReversedNumbersTest\ReversedNumbersTest.csproj", "{D86FD0A7-AE9E-4B85-9108-B4352E05FFF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00381A8A-05B5-4C23-A1E3-6E439C2D89DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00381A8A-05B5-4C23-A1E3-6E439C2D89DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00381A8A-05B5-4C23-A1E3-6E439C2D89DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00381A8A-05B5-4C23-A1E3-6E439C2D89DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86FD0A7-AE9E-4B85-9108-B4352E05FFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86FD0A7-AE9E-4B85-9108-B4352E05FFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86FD0A7-AE9E-4B85-9108-B4352E05FFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86FD0A7-AE9E-4B85-9108-B4352E05FFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
