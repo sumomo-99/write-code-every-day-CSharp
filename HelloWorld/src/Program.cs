@@ -1,8 +1,8 @@
-﻿using day1;
+﻿using Sumomo99.WriteCodeEveryDay;
 
 Console.WriteLine(HelloWorld.Print());
 
-namespace day1
+namespace Sumomo99.WriteCodeEveryDay
 {
     public static class HelloWorld
     {
