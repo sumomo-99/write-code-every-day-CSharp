@@ -1,32 +1,46 @@
-﻿if (args.Length > 0)
+﻿using Sumomo99.WriteCodeEveryDay;
+
+if (args.Length > 0)
 {
-    Console.WriteLine(watch.Seconds.Format(UInt32.Parse(args[0])));
+    var watch = new Watch() { Seconds = UInt32.Parse(args[0]) };
+    watch.Format();
+    Console.WriteLine($"{watch.Hours:00}:{watch.Minutes:00}:{watch.Seconds:00}");
 }
 else
 {
-    Console.WriteLine("コマンドに引数が必要です。");
+    Console.WriteLine("Usage:  dotnet run SECONDS");
 }
 
-namespace watch
+namespace Sumomo99.WriteCodeEveryDay
 {
-    public static class Seconds
+    public class Watch
     {
-        public static string Format(uint seconds)
-        {
-            uint hours = 0;
-            uint minutes = 0;
+        public uint Hours { get; set; } = 0;
+        public uint Minutes { get; set; } = 0;
+        public uint Seconds { get; set; } = 0;
 
-            if (seconds >= 3600)
+        public void Format()
+        {
+            ConvertSeconds();
+            ConvertMinutes();
+        }
+
+        private void ConvertSeconds()
+        {
+            if (Seconds >= 60)
             {
-                hours = seconds / 3600;
-                seconds %= 3600;
+                Minutes = Seconds / 60;
+                Seconds %= 60;
             }
-            if (seconds >= 60)
+        }
+
+        private void ConvertMinutes()
+        {
+            if (Minutes >= 60)
             {
-                minutes = seconds / 60;
-                seconds %= 60;
+                Hours = Minutes / 60;
+                Minutes %= 60;
             }
-            return $"{hours}:{minutes}:{seconds}";
         }
     }
 }
