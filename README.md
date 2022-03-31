@@ -40,3 +40,4 @@
 36. InsertSort
 37. GreaetstCommonDivisor
 38. PrimeNumbers
+39. QQ
