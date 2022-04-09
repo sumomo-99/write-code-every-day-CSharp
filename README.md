@@ -42,3 +42,4 @@
 38. PrimeNumbers
 39. QQ
 40. ArrayDiff
+41. Bin2Dec
